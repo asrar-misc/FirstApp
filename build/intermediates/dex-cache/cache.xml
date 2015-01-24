@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\libs\restapi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="74e7a83e77c3fbda021adb3df4babcaafd73f138">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\restapi-b08ecf0d748f71fd8771b38678cdf2dcd5076059.jar" />
+    </item>
+    <item
+        jar="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-53f512ee4a491c2e11deecadcd54fb6451503c94.jar" />
+    </item>
+    <item
+        jar="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\gson-2.2.4-f0b9766c31bfa57ca658229f7d6751fc0a983cb5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidIDE\SDK\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-19d39438851003dee36dbd47eff034b696da0712.jar" />
+    </item>
+    <item
+        jar="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\classes-e4c09b3df58d46a2354a68df5fa71cdf08681bb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\asrar\AndroidStudioProjects\FirstApp\app\build\intermediates\pre-dexed\debug\classes-422de69f06197a8b5407251d1c95c9c0917d7e69.jar" />
+    </item>
+
+</items>

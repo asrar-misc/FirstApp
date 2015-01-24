@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/edit_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message" />
+
+        <EditText android:id="@+id/edit_message2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox android:id="@+id/graduate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduate"
+            android:checked="false" />
+
+        <CheckBox android:id="@+id/post_graduate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post-Graduate"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radioGroupGender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/radioGenderMale"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:id="@+id/radioGenderFemale"
+                android:checked="false" />
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spinner_planet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:id="@+id/button_send" />
+    </LinearLayout>
+</LinearLayout>
